@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
- <a href="https://philipefirmo.github.io/html-css/desafios/d010/android.html"> Executar o exercício Android</a> 
+ <a href="https://philipefirmo.github.io/html-css/desafios/d010/android.html" target="_blank"> Executar o exercício Android</a> 
