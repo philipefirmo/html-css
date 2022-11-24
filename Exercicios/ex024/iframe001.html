@@ -6,27 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
     <style>
-        iframe {
-            width: 100px;
-            height: 100px;
+        iframe{
+            width: 90vw;
+            height: 300px;
+            border: 2px solid black;
         }
     </style>
 </head>
 <body>
-    <h1>Testando o uso de um iframe</h1>
-    <p>
-        Acessando o site do  
-        <iframe src="https://philipefirmo.github.io/html-css/" frameborder="0" width="450px" height="450px"> Philipe
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe dolor fuga consequuntur, accusamus repellat ut ipsam impedit, corporis ipsa sapiente atque explicabo sit, maxime libero incidunt officia eum? Dolorem?</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem assumenda doloribus dolorem minus ipsam vel alias sint sunt commodi corporis, provident voluptatum aliquam minima est, pariatur omnis quis maxime impedit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, explicabo aut necessitatibus est commodi eius doloremque vitae magnam quam facere eos nihil, maxime, quis adipisci ut. Sint at nam sunt!</p>
 
-        </iframe>
-        
-        
-
-    </p>
-
-    <p>
-        O site do <iframe src="" frameborder="0" width="450px" height="450px"></iframe>para aprender a programar.
-    </p>
-    
-</body>
+    <iframe src="" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est recusandae quaerat quod sint tempora deleniti, voluptate reiciendis doloribus minima iste atque voluptates facere sit dolorem, ad eius aut? Perspiciatis, vitae. </p> <img src='pattern002.png'> ">
+        <p>Infelizmente seu navegador não é compativel com isso.</p>
+    </iframe>
+    </body>
 </html>
